@@ -1,0 +1,9 @@
+{
+  "id": "jev-clipper-classifier",
+  "name": "Jev Clipper Classifier",
+  "version": "0.1.0",
+  "minAppVersion": "1.7.2",
+  "description": "Categorize and tag Web Clipper notes with Jev.",
+  "author": "Julian",
+  "isDesktopOnly": false
+}

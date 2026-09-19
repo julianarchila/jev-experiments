@@ -1,0 +1,5 @@
+.env.local
+.test-vault/
+**/node_modules/
+obsidian-clipper-classifier/main.js
+
