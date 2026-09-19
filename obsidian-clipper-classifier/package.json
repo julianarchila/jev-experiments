@@ -1,0 +1,21 @@
+{
+  "name": "jev-clipper-classifier",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Classify Obsidian Web Clipper notes with Jev.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit --skipLibCheck && node esbuild.config.mjs production",
+    "test": "vitest run",
+    "test:live": "node --env-file=../.env.local scripts/live-smoke.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "esbuild": "^0.28.2",
+    "obsidian": "^1.13.1",
+    "typescript": "^5.9.2",
+    "vitest": "^5.0.1"
+  }
+}
